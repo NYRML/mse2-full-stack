@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.success {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border-left: 5px solid #007bff;
+}
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #343a40;
+  padding: 15px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.logout-btn {
+  background: #dc3545;
+  width: auto;
+  padding: 5px 15px;
+}
+.search-bar {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.search-bar input {
+  flex: 1;
+}
